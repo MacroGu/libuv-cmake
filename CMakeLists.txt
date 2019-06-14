@@ -33,7 +33,6 @@ if(WIN32)
     ${LIBUVDIR}/src/win/stream.c
     ${LIBUVDIR}/src/win/tcp.c
     ${LIBUVDIR}/src/win/thread.c
-    ${LIBUVDIR}/src/win/timer.c
     ${LIBUVDIR}/src/win/tty.c
     ${LIBUVDIR}/src/win/udp.c
     ${LIBUVDIR}/src/win/util.c
@@ -87,7 +86,6 @@ else()
     ${LIBUVDIR}/src/unix/stream.c
     ${LIBUVDIR}/src/unix/tcp.c
     ${LIBUVDIR}/src/unix/thread.c
-    ${LIBUVDIR}/src/unix/timer.c
     ${LIBUVDIR}/src/unix/tty.c
     ${LIBUVDIR}/src/unix/udp.c)
 endif()
