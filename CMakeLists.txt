@@ -28,7 +28,6 @@ if(WIN32)
     ${LIBUVDIR}/src/win/poll.c
     ${LIBUVDIR}/src/win/process-stdio.c
     ${LIBUVDIR}/src/win/process.c
-    ${LIBUVDIR}/src/win/req.c
     ${LIBUVDIR}/src/win/signal.c
     ${LIBUVDIR}/src/win/stream.c
     ${LIBUVDIR}/src/win/tcp.c
